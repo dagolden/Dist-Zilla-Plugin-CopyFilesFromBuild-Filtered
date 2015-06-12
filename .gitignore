@@ -1,4 +1,4 @@
-/Dist-Zilla-Plugin-CopyFromBuild-Filtered*
+/Dist-Zilla-Plugin-CopyFilesFromBuild-Filtered*
 /.build
 /.tidyall.d
 *.bak

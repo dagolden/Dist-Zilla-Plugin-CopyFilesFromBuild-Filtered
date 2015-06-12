@@ -11,11 +11,11 @@ my %WriteMakefileArgs = (
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.17"
   },
-  "DISTNAME" => "Dist-Zilla-Plugin-CopyFromBuild-Filtered",
+  "DISTNAME" => "Dist-Zilla-Plugin-CopyFilesFromBuild-Filtered",
   "EXE_FILES" => [],
   "LICENSE" => "apache",
   "MIN_PERL_VERSION" => "5.008001",
-  "NAME" => "Dist::Zilla::Plugin::CopyFromBuild::Filtered",
+  "NAME" => "Dist::Zilla::Plugin::CopyFilesFromBuild::Filtered",
   "PREREQ_PM" => {
     "Dist::Zilla::Role::AfterBuild" => 0,
     "Moose" => 0,
