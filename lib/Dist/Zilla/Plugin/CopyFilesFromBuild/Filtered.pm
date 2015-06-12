@@ -5,7 +5,7 @@ use warnings;
 package Dist::Zilla::Plugin::CopyFilesFromBuild::Filtered;
 # ABSTRACT: Copy files from build directory, but filter out lines
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use Moose;
 use Path::Tiny;
