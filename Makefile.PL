@@ -12,7 +12,6 @@ my %WriteMakefileArgs = (
     "ExtUtils::MakeMaker" => "6.17"
   },
   "DISTNAME" => "Dist-Zilla-Plugin-CopyFilesFromBuild-Filtered",
-  "EXE_FILES" => [],
   "LICENSE" => "apache",
   "MIN_PERL_VERSION" => "5.008001",
   "NAME" => "Dist::Zilla::Plugin::CopyFilesFromBuild::Filtered",
@@ -41,7 +40,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Dist::Zilla::Role::AfterBuild" => 0,
-  "ExtUtils::MakeMaker" => "6.17",
+  "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
   "File::pushd" => 0,
   "Moose" => 0,
