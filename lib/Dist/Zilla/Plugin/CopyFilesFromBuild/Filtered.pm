@@ -55,8 +55,8 @@ sub after_build {
 
     for my $file ( @{ $self->copy } ) {
         next unless length $file;
-        my $from = $build_root->file($file);
-        my $to   = $self->zilla->root->file($file);
+        my $from = path($build_root)->child($file);
+        my $to   = path( $self->zilla->root )->child($file);
         $self->_copy_filtered( $from, $to ) if -e $from;
     }
 }

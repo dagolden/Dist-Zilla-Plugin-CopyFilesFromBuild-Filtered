@@ -2,6 +2,11 @@ Revision history for Dist-Zilla-Plugin-CopyFromBuild-Filtered
 
 {{$NEXT}}
 
+    [Fixes]
+
+    - Stopped depending on Path::Class API from Dist::Zilla in preparation
+      for release of Dist::Zilla 6, which deprecates it.
+
 0.001     2015-06-12 11:36:19-04:00 America/New_York
 
     - First release
